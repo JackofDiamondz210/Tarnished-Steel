@@ -41,14 +41,14 @@
     {"id":{"name":"O_Enemy_Grid","path":"objects/O_Enemy_Grid/O_Enemy_Grid.yy",},},
     {"id":{"name":"O_Player","path":"objects/O_Player/O_Player.yy",},},
     {"id":{"name":"O_Wall","path":"objects/O_Wall/O_Wall.yy",},},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"temp","path":"rooms/temp/temp.yy",},},
     {"id":{"name":"Temp","path":"sprites/Temp/Temp.yy",},},
     {"id":{"name":"Wall_temp","path":"sprites/Wall_temp/Wall_temp.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"temp","path":"rooms/temp/temp.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

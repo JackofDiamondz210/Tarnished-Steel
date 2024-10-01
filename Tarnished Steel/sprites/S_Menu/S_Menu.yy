@@ -1,10 +1,10 @@
 {
   "$GMSprite":"",
   "%Name":"S_Menu",
-  "bboxMode":0,
-  "bbox_bottom":0,
+  "bboxMode":1,
+  "bbox_bottom":29,
   "bbox_left":0,
-  "bbox_right":0,
+  "bbox_right":99,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,

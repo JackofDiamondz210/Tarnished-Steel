@@ -1,0 +1,2 @@
+//enemy cooldown
+coolDown = false

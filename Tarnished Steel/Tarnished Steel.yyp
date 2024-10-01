@@ -41,6 +41,11 @@
     {"id":{"name":"O_Enemy_Grid","path":"objects/O_Enemy_Grid/O_Enemy_Grid.yy",},},
     {"id":{"name":"O_Player","path":"objects/O_Player/O_Player.yy",},},
     {"id":{"name":"O_Wall","path":"objects/O_Wall/O_Wall.yy",},},
+    {"id":{"name":"rm_backstory","path":"rooms/rm_backstory/rm_backstory.yy",},},
+    {"id":{"name":"rm_gameplay","path":"rooms/rm_gameplay/rm_gameplay.yy",},},
+    {"id":{"name":"rm_instructions","path":"rooms/rm_instructions/rm_instructions.yy",},},
+    {"id":{"name":"rm_loseScreen","path":"rooms/rm_loseScreen/rm_loseScreen.yy",},},
+    {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"id":{"name":"temp","path":"rooms/temp/temp.yy",},},
     {"id":{"name":"Temp","path":"sprites/Temp/Temp.yy",},},
     {"id":{"name":"Wall_temp","path":"sprites/Wall_temp/Wall_temp.yy",},},
@@ -49,6 +54,11 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"temp","path":"rooms/temp/temp.yy",},},
+    {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
+    {"roomId":{"name":"rm_instructions","path":"rooms/rm_instructions/rm_instructions.yy",},},
+    {"roomId":{"name":"rm_gameplay","path":"rooms/rm_gameplay/rm_gameplay.yy",},},
+    {"roomId":{"name":"rm_backstory","path":"rooms/rm_backstory/rm_backstory.yy",},},
+    {"roomId":{"name":"rm_loseScreen","path":"rooms/rm_loseScreen/rm_loseScreen.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

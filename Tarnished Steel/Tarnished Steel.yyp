@@ -34,12 +34,20 @@
   },
   "name":"Tarnished Steel",
   "resources":[
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"rm_backstory","path":"rooms/rm_backstory/rm_backstory.yy",},},
+    {"id":{"name":"rm_gameplay","path":"rooms/rm_gameplay/rm_gameplay.yy",},},
+    {"id":{"name":"rm_instructions","path":"rooms/rm_instructions/rm_instructions.yy",},},
+    {"id":{"name":"rm_loseScreen","path":"rooms/rm_loseScreen/rm_loseScreen.yy",},},
+    {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rm_gameplay","path":"rooms/rm_gameplay/rm_gameplay.yy",},},
+    {"roomId":{"name":"rm_backstory","path":"rooms/rm_backstory/rm_backstory.yy",},},
+    {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
+    {"roomId":{"name":"rm_instructions","path":"rooms/rm_instructions/rm_instructions.yy",},},
+    {"roomId":{"name":"rm_loseScreen","path":"rooms/rm_loseScreen/rm_loseScreen.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

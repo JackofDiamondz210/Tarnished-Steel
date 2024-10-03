@@ -19,7 +19,6 @@ spd = 9;
 // Initialize speed variables
 vsp = 0;
 hsp = 0;
-hp = 5;
 attacklocationx = 65
 attacklocationy = 25
 playerx = x

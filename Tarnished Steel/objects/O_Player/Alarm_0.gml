@@ -17,3 +17,4 @@ while (card0 == card2 || card1 == card2) {
 	card2 = random_range(1, 10);
 }
 
+window_set_cursor(cr_arrow);

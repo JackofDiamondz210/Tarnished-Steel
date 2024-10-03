@@ -79,7 +79,6 @@ hsp = 0;
 vsp = 0;
 
 //this will end the game 
-
 if (hp <= 0) {
 	room_goto(rm_loseScreen);
 }

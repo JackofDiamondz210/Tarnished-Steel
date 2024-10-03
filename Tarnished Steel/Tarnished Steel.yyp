@@ -46,6 +46,7 @@
     {"id":{"name":"O_Enemy_Base","path":"objects/O_Enemy_Base/O_Enemy_Base.yy",},},
     {"id":{"name":"O_Enemy_Grid","path":"objects/O_Enemy_Grid/O_Enemy_Grid.yy",},},
     {"id":{"name":"O_EnemyHitbox","path":"objects/O_EnemyHitbox/O_EnemyHitbox.yy",},},
+    {"id":{"name":"O_enemySpawner","path":"objects/O_enemySpawner/O_enemySpawner.yy",},},
     {"id":{"name":"O_Exit","path":"objects/O_Exit/O_Exit.yy",},},
     {"id":{"name":"O_Hitbox","path":"objects/O_Hitbox/O_Hitbox.yy",},},
     {"id":{"name":"O_Player","path":"objects/O_Player/O_Player.yy",},},

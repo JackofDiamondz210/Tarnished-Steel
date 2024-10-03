@@ -19,10 +19,31 @@ spd = 9;
 // Initialize speed variables
 vsp = 0;
 hsp = 0;
-
+hp = 5;
+attacklocationx = 65
+attacklocationy = 25
 playerx = x
 playery = y
 //we are setting the cursor to none when the player is on screen 
 window_set_cursor(cr_none)
 
+ableToMove = true;
 
+spinningAbility = true;
+
+//Abilities
+if (spinningAbility = true)
+{
+	var spinningAbility1 = instance_create_layer(x,y,layer,O_spinningAbility);
+		spinningAbility1.angle = 0;
+		
+	var spinningAbility2 = instance_create_layer(x,y,layer,O_spinningAbility);
+		spinningAbility2.angle = 90;
+		
+	var spinningAbility3 = instance_create_layer(x,y,layer,O_spinningAbility);
+		spinningAbility3.angle = 180;
+		
+	var spinningAbility4 = instance_create_layer(x,y,layer,O_spinningAbility);
+		spinningAbility4.angle = 270;
+	
+}

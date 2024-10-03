@@ -13,6 +13,7 @@ mp_grid_path(O_Enemy_Grid.grid, path, x,y, target_x,target_y, 1);
 if (disablepath = false)
 {
 path_start(path,3,path_action_stop,true);
+sprite_index = S_Necromancer_walk;
 }
 //loop alarm
 alarm_set(0,10);

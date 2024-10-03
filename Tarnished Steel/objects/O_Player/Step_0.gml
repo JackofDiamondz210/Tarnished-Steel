@@ -60,9 +60,8 @@ if(keyboard_check(ord("Q")))
 {
 	sprite_index = Attack_Player;
 	instance_create_layer(x + attacklocationx,y + attacklocationy,"Instances",O_Hitbox)
-	
 	O_Controller.shakeValue = 0.5
-ableToMove = false;
+	ableToMove = false;
 
 }
 else

@@ -62,6 +62,9 @@ vsp = 0;
 
 //this will end the game 
 
+if (hp <= 0) {
+	room_goto(rm_loseScreen);
+}
 
 //this is finding the player location
 playerx = x;

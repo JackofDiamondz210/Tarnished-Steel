@@ -6,6 +6,7 @@ if(place_meeting(x,y,O_Player)&&(disablepath = false)&&(attackingPlayer = false)
 	alarm[1] = random_range(15,25)
 }
 
+effect_create_below(ef_smoke,x - 15,y-50,0.1,c_white)
 // Get the horizontal distance from the enemy to the player
 var horizontal_distance = O_Player.x - x;
 

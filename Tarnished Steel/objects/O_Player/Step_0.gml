@@ -1,4 +1,6 @@
 // inputs
+if (ableToMove = true)
+{
 if (keyboard_check(vk_right) || keyboard_check(ord("D"))){
     dir = 0;
     hsp = spd;
@@ -24,7 +26,7 @@ if (keyboard_check(vk_up) || keyboard_check(ord("W"))){
 	attacklocationy = 25
 	
 }
-
+}
 
 
 
@@ -58,8 +60,14 @@ if(keyboard_check(ord("Q")))
 {
 	sprite_index = Attack_Player;
 	instance_create_layer(x + attacklocationx,y + attacklocationy,"Instances",O_Hitbox)
-}
+	
+ableToMove = false;
 
+}
+else
+{
+ableToMove = true;	
+}
 
 //setting rotation of player 
 if (hsp !=0)image_xscale = sign(hsp);

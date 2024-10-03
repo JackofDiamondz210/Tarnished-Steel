@@ -15,4 +15,4 @@ playery = y
 //we are setting the cursor to none when the player is on screen 
 window_set_cursor(cr_none)
 
-
+ableToMove = true;

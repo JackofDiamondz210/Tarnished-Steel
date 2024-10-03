@@ -26,7 +26,7 @@
   "origin":4,
   "parent":{
     "name":"UIStuff",
-    "path":"folders/Sprites/UIStuff.yy",
+    "path":"folders/Sprites/playersprite/UIStuff.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -1,13 +1,24 @@
 //Setting the direction the player is going 
 dir = 0;
 
+hp = 100;
+hp_time = 5;
+defense = 50;
+
+atk_speed = .1;
+atk_damage = 10;
+atk_size = 10;
+
+size = 1;
+vision = 0;
+pickup_effectiveness = 1;
+
 //Speed of the player
 spd = 9;
 
 // Initialize speed variables
 vsp = 0;
 hsp = 0;
-hp = 5;
 attacklocationx = 65
 attacklocationy = 25
 playerx = x

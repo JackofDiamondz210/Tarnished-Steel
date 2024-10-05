@@ -3,6 +3,11 @@ spawn_y = irandom_range(0,room_height);
 spawn_x = irandom_range(0,room_width);
 spawn_side = irandom_range(0,3);
 
+
+if (spawning = false)
+{
+	show_debug_message("spawning")
+	show_debug_message(spawning)
 // Spawn from right side
 if (spawn_side == 0)
 	{
@@ -23,3 +28,4 @@ else
 	{
 		instance_create_layer(spawn_x, room_height-100, "Instances", O_Enemy_Base);
 	}
+}

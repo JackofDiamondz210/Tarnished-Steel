@@ -1,18 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"O_HP",
+  "%Name":"O_CardCamera",
   "eventList":[],
   "managed":true,
-  "name":"O_HP",
+  "name":"O_CardCamera",
   "overriddenProperties":[],
   "parent":{
-    "name":"Cards",
-    "path":"folders/Objects/Cards.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
-  "parentObjectId":{
-    "name":"PO_Cards",
-    "path":"objects/PO_Cards/PO_Cards.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

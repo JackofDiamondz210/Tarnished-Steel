@@ -9,7 +9,7 @@
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"PO_Cards","path":"objects/PO_Cards/PO_Cards.yy",},"propertyId":{"name":"card_name","path":"objects/PO_Cards/PO_Cards.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Eye for an Eye",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"PO_Cards","path":"objects/PO_Cards/PO_Cards.yy",},"propertyId":{"name":"card_description","path":"objects/PO_Cards/PO_Cards.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Makes sight worse",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"PO_Cards","path":"objects/PO_Cards/PO_Cards.yy",},"propertyId":{"name":"card_sprite","path":"objects/PO_Cards/PO_Cards.yy",},"resource":{"name":"Wall_temp_1","path":"sprites/Wall_temp_1/Wall_temp_1.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Wall_temp_1",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"PO_Cards","path":"objects/PO_Cards/PO_Cards.yy",},"propertyId":{"name":"card_sprite","path":"objects/PO_Cards/PO_Cards.yy",},"resource":{"name":"No_sight","path":"sprites/No_sight/No_sight.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"No_sight",},
   ],
   "parent":{
     "name":"Cards",

@@ -1,4 +1,11 @@
 
+if (playerHit = true && playerHitreset = false)
+{
+playerHitreset = true
+alarm[0] = 35
+}
+
+
 //camera follow
 
 var cam_x = cameraFollow.x - camera_get_view_width(view_camera[0])/2
@@ -23,4 +30,5 @@ pausegame = true
 SetCardCreation();
 event_user(0)
 }
+
 

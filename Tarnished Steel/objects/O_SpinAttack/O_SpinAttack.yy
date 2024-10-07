@@ -9,6 +9,7 @@
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"PO_Cards","path":"objects/PO_Cards/PO_Cards.yy",},"propertyId":{"name":"card_name","path":"objects/PO_Cards/PO_Cards.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Sticks N Stones",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"PO_Cards","path":"objects/PO_Cards/PO_Cards.yy",},"propertyId":{"name":"card_description","path":"objects/PO_Cards/PO_Cards.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Remove Spin Ability",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"PO_Cards","path":"objects/PO_Cards/PO_Cards.yy",},"propertyId":{"name":"card_sprite","path":"objects/PO_Cards/PO_Cards.yy",},"resource":{"name":"Sticks","path":"sprites/Sticks/Sticks.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Sticks",},
   ],
   "parent":{
     "name":"Cards",

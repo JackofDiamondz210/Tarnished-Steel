@@ -5,8 +5,9 @@
   "managed":true,
   "name":"O_Recovery",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"PO_Cards","path":"objects/PO_Cards/PO_Cards.yy",},"propertyId":{"name":"card_name","path":"objects/PO_Cards/PO_Cards.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"No Health",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"PO_Cards","path":"objects/PO_Cards/PO_Cards.yy",},"propertyId":{"name":"card_name","path":"objects/PO_Cards/PO_Cards.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"  No Health",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"PO_Cards","path":"objects/PO_Cards/PO_Cards.yy",},"propertyId":{"name":"card_description","path":"objects/PO_Cards/PO_Cards.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Slows health Speed",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"PO_Cards","path":"objects/PO_Cards/PO_Cards.yy",},"propertyId":{"name":"card_sprite","path":"objects/PO_Cards/PO_Cards.yy",},"resource":{"name":"Low_health_recovery","path":"sprites/Low_health_recovery/Low_health_recovery.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Low_health_recovery",},
   ],
   "parent":{
     "name":"Cards",

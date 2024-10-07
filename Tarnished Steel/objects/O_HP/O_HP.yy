@@ -5,8 +5,9 @@
   "managed":true,
   "name":"O_HP",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"PO_Cards","path":"objects/PO_Cards/PO_Cards.yy",},"propertyId":{"name":"card_name","path":"objects/PO_Cards/PO_Cards.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Wheres My health",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"PO_Cards","path":"objects/PO_Cards/PO_Cards.yy",},"propertyId":{"name":"card_name","path":"objects/PO_Cards/PO_Cards.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":" Wheres health",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"PO_Cards","path":"objects/PO_Cards/PO_Cards.yy",},"propertyId":{"name":"card_description","path":"objects/PO_Cards/PO_Cards.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Lose max health",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"PO_Cards","path":"objects/PO_Cards/PO_Cards.yy",},"propertyId":{"name":"card_sprite","path":"objects/PO_Cards/PO_Cards.yy",},"resource":{"name":"Lose_health","path":"sprites/Lose_health/Lose_health.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Lose_health",},
   ],
   "parent":{
     "name":"Cards",

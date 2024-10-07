@@ -79,14 +79,15 @@ hsp = 0;
 vsp = 0;
 
 //this will end the game 
-if (hp <= 0) {
-	room_goto(rm_menu);
+if (hp <= 0)
+{
+	window_set_cursor(cr_arrow)
+	room_goto(rm_Lose);
 }
 
 //this is finding the player location
 playerx = x;
 playery = y;
-
 //checking player size 
 
 

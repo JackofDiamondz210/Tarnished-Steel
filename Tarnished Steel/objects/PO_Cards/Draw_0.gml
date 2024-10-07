@@ -9,7 +9,7 @@ draw_sprite_ext(Menu_UI_1, 0, x, y, scale_factor, scale_factor, 0, c_white, 1);
 
 // Draw the card name
 draw_set_color(c_white);
-//draw_set_font(fnt_card_name); // Set your font for the card name
+draw_set_font(Smallerfont); // Set your font for the card name
 draw_text(x - 65, y - 35 * scale_factor, card_name); // Adjust y position based on scale
 
 // Draw the item sprite in the center of the card

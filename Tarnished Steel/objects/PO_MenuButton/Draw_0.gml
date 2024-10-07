@@ -1,6 +1,7 @@
 // Draw the button itself
 //draw_self();
 
+draw_set_font(Smallerfont);
 // Change the color to the text color set in the Create event
 draw_set_colour(Textcolour);
 
@@ -26,4 +27,3 @@ draw_set_valign(fa_top);
 // Reset the color to white
 draw_set_colour(c_white);
 
-//draw_set_font(Pixel_Font);

@@ -70,9 +70,9 @@ ableToMove = true;
 }
 
 //setting rotation of player 
-if (hsp !=0)image_xscale = sign(hsp);
-
-
+if (hsp !=0)image_xscale = sign(hsp)*size;
+//this is setting the player size
+image_yscale = size
 
 // Resetting speed 
 hsp = 0;
@@ -80,13 +80,15 @@ vsp = 0;
 
 //this will end the game 
 if (hp <= 0) {
-	room_goto(rm_loseScreen);
+	room_goto(rm_menu);
 }
 
 //this is finding the player location
 playerx = x;
 playery = y;
-	
+
+//checking player size 
+
 
 
 

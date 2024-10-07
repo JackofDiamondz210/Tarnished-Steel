@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"O_CardCamera",
+  "%Name":"O_Cardcontroller",
   "eventList":[],
   "managed":true,
-  "name":"O_CardCamera",
+  "name":"O_Cardcontroller",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",

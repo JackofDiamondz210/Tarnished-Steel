@@ -16,8 +16,11 @@ camera_set_view_pos(view_camera[0],cam_x,cam_y)
 
 if (shakeValue > 0) shakeValue -= 0.1
 
-if(enemiestokill <= 0)
+
+if(enemiestokill <= 0 && pausegame = false)
 {
-SetCardCreation();	
+pausegame = true
+SetCardCreation();
+event_user(0)
 }
 

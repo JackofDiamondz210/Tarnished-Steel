@@ -8,5 +8,5 @@ disablepath = false
 attackingPlayer = false
 //starting alarm
 alarm[0] = 1;
-hp = 3
+hp = 5
 coolDown = false

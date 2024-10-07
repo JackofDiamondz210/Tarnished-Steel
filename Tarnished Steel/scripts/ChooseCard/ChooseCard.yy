@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"ChooseCard",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ChooseCard",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

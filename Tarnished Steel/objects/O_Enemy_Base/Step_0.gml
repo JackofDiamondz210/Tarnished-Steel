@@ -19,7 +19,8 @@ image_xscale = xdirection;
 
 if (hp <= 0)
 {
-	show_debug_message(hp)
+show_debug_message(hp)
 sprite_index = S_Necromancer_Death;
+O_Controller.enemiestokill -= 1
 instance_destroy(self)
 }

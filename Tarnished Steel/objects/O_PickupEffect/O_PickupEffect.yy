@@ -4,7 +4,10 @@
   "eventList":[],
   "managed":true,
   "name":"O_PickupEffect",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"PO_Cards","path":"objects/PO_Cards/PO_Cards.yy",},"propertyId":{"name":"card_name","path":"objects/PO_Cards/PO_Cards.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Lost Magnet ",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"PO_Cards","path":"objects/PO_Cards/PO_Cards.yy",},"propertyId":{"name":"card_description","path":"objects/PO_Cards/PO_Cards.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Lower Pickup Range",},
+  ],
   "parent":{
     "name":"Cards",
     "path":"folders/Objects/Cards.yy",
@@ -30,7 +33,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Menu_UI_2",
+    "path":"sprites/Menu_UI_2/Menu_UI_2.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

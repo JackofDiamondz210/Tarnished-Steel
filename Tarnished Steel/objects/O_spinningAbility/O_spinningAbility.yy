@@ -9,8 +9,8 @@
   "name":"O_spinningAbility",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"CardEffects",
+    "path":"folders/Objects/CardEffects.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -1,7 +1,8 @@
 
 //camera follow
-var cam_x = O_Player.x - camera_get_view_width(view_camera[0])/2
-var cam_y = O_Player.y - camera_get_view_height(view_camera[0])/2
+
+var cam_x = cameraFollow.x - camera_get_view_width(view_camera[0])/2
+var cam_y = cameraFollow.y - camera_get_view_height(view_camera[0])/2
 
 
 var shake = power(shakeValue,2)*shakePower
@@ -14,4 +15,12 @@ cam_y += random_range(-shake,shake)
 camera_set_view_pos(view_camera[0],cam_x,cam_y)
 
 if (shakeValue > 0) shakeValue -= 0.1
+
+
+if(enemiestokill <= 0 && pausegame = false)
+{
+pausegame = true
+SetCardCreation();
+event_user(0)
+}
 

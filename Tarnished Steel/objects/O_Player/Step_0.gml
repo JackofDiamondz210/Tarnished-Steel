@@ -70,9 +70,9 @@ ableToMove = true;
 }
 
 //setting rotation of player 
-if (hsp !=0)image_xscale = sign(hsp);
-
-
+if (hsp !=0)image_xscale = sign(hsp)*size;
+//this is setting the player size
+image_yscale = size
 
 // Resetting speed 
 hsp = 0;
@@ -80,7 +80,7 @@ vsp = 0;
 
 //this will end the game 
 if (hp <= 0) {
-	room_goto(rm_loseScreen);
+	room_goto(rm_menu);
 }
 
 //this is finding the player location
@@ -91,6 +91,9 @@ playery = y;
 //camera follow
 var cam_x = x - camera_get_view_width(view_camera[0])/2
 var cam_y = y - camera_get_view_height(view_camera[0])/2
+
+//checking player size 
+
 
 cam_x = clamp(cam_x,0,room_width-camera_get_view_width(view_camera[0]))
 cam_x = clamp(cam_x,0,room_height-camera_get_view_height(view_camera[0]))

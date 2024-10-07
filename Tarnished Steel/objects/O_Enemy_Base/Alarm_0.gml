@@ -1,4 +1,5 @@
-
+if (disablepath = false)
+{
 path_delete(path)
 path = path_add();
 
@@ -8,7 +9,7 @@ target_y = O_Player.y;
 
 //using grid 
 mp_grid_path(O_Enemy_Grid.grid, path, x,y, target_x,target_y, 1);
-
+}
 // go on the path 
 if (disablepath = false)
 {

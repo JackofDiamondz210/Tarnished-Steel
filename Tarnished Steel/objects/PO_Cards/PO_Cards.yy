@@ -1,10 +1,16 @@
 {
   "$GMObject":"",
   "%Name":"PO_Cards",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"PO_Cards",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"PO_MenuButton","path":"objects/PO_MenuButton/PO_MenuButton.yy",},"propertyId":{"name":"Textcolour","path":"objects/PO_MenuButton/PO_MenuButton.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"$FFFFFFFF",},
+  ],
   "parent":{
     "name":"Cards",
     "path":"folders/Objects/Cards.yy",
@@ -26,11 +32,18 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v1","%Name":"card_name","filters":[],"listItems":[],"multiselect":false,"name":"card_name","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Card somthing","varType":2,},
+    {"$GMObjectProperty":"v1","%Name":"card_description","filters":[],"listItems":[],"multiselect":false,"name":"card_description","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"This does somthing","varType":2,},
+    {"$GMObjectProperty":"v1","%Name":"card_sprite","filters":[],"listItems":[],"multiselect":false,"name":"card_sprite","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"Wall_temp_1","path":"sprites/Wall_temp_1/Wall_temp_1.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Wall_temp_1","varType":5,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Menu_UI_2",
+    "path":"sprites/Menu_UI_2/Menu_UI_2.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

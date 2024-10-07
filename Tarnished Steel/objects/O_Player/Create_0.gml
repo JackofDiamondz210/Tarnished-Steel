@@ -10,6 +10,9 @@ atk_damage = 10;
 atk_size = 10;
 
 size = 1;
+image_xscale = size
+image_yscale = size
+
 vision = 0;
 pickup_effectiveness = 1;
 

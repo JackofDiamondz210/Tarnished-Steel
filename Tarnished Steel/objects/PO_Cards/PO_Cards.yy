@@ -1,9 +1,7 @@
 {
   "$GMObject":"",
   "%Name":"PO_Cards",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"PO_Cards",
   "overriddenProperties":[],
@@ -11,7 +9,10 @@
     "name":"Cards",
     "path":"folders/Objects/Cards.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"PO_MenuButton",
+    "path":"objects/PO_MenuButton/PO_MenuButton.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

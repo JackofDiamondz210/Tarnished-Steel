@@ -60,8 +60,8 @@ if(keyboard_check(ord("Q")))
 {
 	sprite_index = Attack_Player;
 	instance_create_layer(x + attacklocationx,y + attacklocationy,"Instances",O_Hitbox)
-	O_Controller.shakeValue = 0.5
-	ableToMove = false;
+	
+ableToMove = false;
 
 }
 else
@@ -87,6 +87,12 @@ if (hp <= 0) {
 playerx = x;
 playery = y;
 	
+	
+//camera follow
+var cam_x = x - camera_get_view_width(view_camera[0])/2
+var cam_y = y - camera_get_view_height(view_camera[0])/2
 
-
+cam_x = clamp(cam_x,0,room_width-camera_get_view_width(view_camera[0]))
+cam_x = clamp(cam_x,0,room_height-camera_get_view_height(view_camera[0]))
+camera_set_view_pos(view_camera[0],cam_x,cam_y)
 

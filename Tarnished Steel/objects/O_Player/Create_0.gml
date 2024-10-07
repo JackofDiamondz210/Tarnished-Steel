@@ -46,3 +46,5 @@ if (spinningAbility = true)
 		spinningAbility4.angle = 270;
 	
 }
+
+CardCreation(0, 1, 2);

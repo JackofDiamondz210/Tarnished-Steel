@@ -26,6 +26,6 @@ else if (spawn_side == 2)
 // Spawn from bottom
 else
 	{
-		instance_create_layer(spawn_x, room_height-100, "Instances", O_Enemy_Base);
+		instance_create_layer(spawn_x, room_height-200, "Instances", O_Enemy_Base);
 	}
 }

@@ -62,7 +62,6 @@ if(keyboard_check(ord("Q")))
 	instance_create_layer(x + attacklocationx,y + attacklocationy,"Instances",O_Hitbox)
 	O_Controller.shakeValue = 0.5
 	ableToMove = false;
-
 }
 else
 {

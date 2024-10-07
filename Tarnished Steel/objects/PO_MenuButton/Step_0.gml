@@ -40,7 +40,7 @@ if (collision_point(_mouse_gui_x, _mouse_gui_y, object_index, false, false) == i
 		image_yscale = 2;
 	
 		// Play the button press sound effect
-		//audio_play_sound(snd_button_press_01, 0, 0);
+		audio_play_sound(Menu_pageturn, 0, 0);
 	}
 }
 // If the mouse is not hovering,

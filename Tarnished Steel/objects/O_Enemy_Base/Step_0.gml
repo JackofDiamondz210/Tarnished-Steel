@@ -22,5 +22,6 @@ if (hp <= 0)
 show_debug_message(hp)
 sprite_index = S_Necromancer_Death;
 O_Controller.enemiestokill -= 1
+audio_play_sound(playerhit, 0, 0);
 instance_destroy(self)
 }

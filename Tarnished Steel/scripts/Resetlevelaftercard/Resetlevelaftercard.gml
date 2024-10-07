@@ -1,6 +1,7 @@
 // this all of the stuff that we are needing to reset everytime you get a new card.
 function Resetlevelaftercard()
 {
+audio_play_sound(CardPicked, 0, 0);
 O_Controller.shakeValue = 2.5
 show_debug_message("reset")
 window_set_cursor(cr_none)

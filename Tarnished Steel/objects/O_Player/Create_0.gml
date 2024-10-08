@@ -7,7 +7,7 @@ hp_time = .1;
 defense = 50;
 
 atk_speed = .1;
-atk_damage = 10;
+atk_damage = 3;
 atk_size = 10;
 
 chains = false;

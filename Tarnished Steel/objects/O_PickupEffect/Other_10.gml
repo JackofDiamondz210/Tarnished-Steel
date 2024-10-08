@@ -3,4 +3,4 @@
 
 // Inherit the parent event
 event_inherited();
-O_Player.maxHP -= 5;
+O_Player.pickup_effectiveness *= .9;

@@ -3,4 +3,4 @@
 
 // Inherit the parent event
 event_inherited();
-O_Player.hp_time -= 6;
+O_Player.hp_time += .1;

@@ -2,7 +2,8 @@
 dir = 0;
 
 hp = 100;
-hp_time = 5;
+maxHP = 100;
+hp_time = .1;
 defense = 50;
 
 atk_speed = .1;
@@ -52,3 +53,7 @@ if (spinningAbility = true)
 		spinningAbility4.angle = 270;
 	
 }
+
+CardCreation(0, 1, 2);
+
+alarm[0] = hp_time;

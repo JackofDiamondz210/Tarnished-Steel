@@ -3,4 +3,4 @@
 
 // Inherit the parent event
 event_inherited();
-O_Player.atk_damage -= 2; 
+O_Player.atk_damage *= .9;

@@ -3,4 +3,4 @@
 
 // Inherit the parent event
 event_inherited();
-O_Player.atk_size -= 2; 
+O_Player.atk_size *= .9;

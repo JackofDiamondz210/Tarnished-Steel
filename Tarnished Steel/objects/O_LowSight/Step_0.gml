@@ -1,2 +1,2 @@
-x = O_Player.x
-y = O_Player.y
+x = O_Controller.cameraFollow.x
+y = O_Controller.cameraFollow.y

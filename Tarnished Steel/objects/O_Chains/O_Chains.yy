@@ -6,7 +6,11 @@
   ],
   "managed":true,
   "name":"O_Chains",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"PO_Cards","path":"objects/PO_Cards/PO_Cards.yy",},"propertyId":{"name":"card_description","path":"objects/PO_Cards/PO_Cards.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Cant move while Attacking",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"PO_Cards","path":"objects/PO_Cards/PO_Cards.yy",},"propertyId":{"name":"card_name","path":"objects/PO_Cards/PO_Cards.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Chains",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"PO_Cards","path":"objects/PO_Cards/PO_Cards.yy",},"propertyId":{"name":"card_sprite","path":"objects/PO_Cards/PO_Cards.yy",},"resource":{"name":"Chains","path":"sprites/Chains/Chains.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Chains",},
+  ],
   "parent":{
     "name":"Cards",
     "path":"folders/Objects/Cards.yy",

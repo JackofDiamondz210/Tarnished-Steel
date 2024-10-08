@@ -70,6 +70,10 @@ if(keyboard_check(vk_space))
 		ableToMove = false;
 	}
 }
+else
+{
+	ableToMove = true;
+}
 
 
 //setting rotation of player 

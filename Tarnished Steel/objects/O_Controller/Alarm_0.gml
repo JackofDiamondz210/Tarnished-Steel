@@ -1,0 +1,2 @@
+playerHitreset = false
+playerHit = false

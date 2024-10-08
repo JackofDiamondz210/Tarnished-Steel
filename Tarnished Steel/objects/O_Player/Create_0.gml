@@ -17,6 +17,7 @@ image_yscale = size
 vision = 0;
 pickup_effectiveness = 1;
 
+realSpd = 9 
 //Speed of the player
 spd = 9;
 

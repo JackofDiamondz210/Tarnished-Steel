@@ -4,3 +4,6 @@ cameraFollow = O_Player;
 cardSet = false
 enemiestokill = floor(random_range(1,2));
 pausegame = false
+playerHit = false
+playerHitreset = false
+audio_play_sound(Gameplay_Music, 1, true);

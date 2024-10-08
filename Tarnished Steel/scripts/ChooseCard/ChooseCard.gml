@@ -4,7 +4,7 @@
 // This function chooses a card based on a random number and the card number
 function ChooseCard(cardNumber) {
     var cardObject;
-    var randomCard = floor(random_range(0, 10)); // Random number 0 to 10
+    var randomCard = floor(random_range(0, 11)); // Random number 0 to 10
 
     switch (randomCard) {
         case 0:

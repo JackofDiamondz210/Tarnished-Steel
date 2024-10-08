@@ -60,9 +60,8 @@ if(keyboard_check(ord("Q")))
 {
 	sprite_index = Attack_Player;
 	instance_create_layer(x + attacklocationx,y + attacklocationy,"Instances",O_Hitbox)
-	
-ableToMove = false;
-
+	O_Controller.shakeValue = 0.5
+	ableToMove = false;
 }
 else
 {
@@ -79,8 +78,10 @@ hsp = 0;
 vsp = 0;
 
 //this will end the game 
-if (hp <= 0) {
-	room_goto(rm_menu);
+if (hp <= 0)
+{
+	window_set_cursor(cr_arrow)
+	room_goto(rm_Lose);
 }
 
 //this is finding the player location

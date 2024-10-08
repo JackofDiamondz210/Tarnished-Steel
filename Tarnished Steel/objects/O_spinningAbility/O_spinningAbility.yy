@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_spinningAbility",
-    "path":"sprites/S_spinningAbility/S_spinningAbility.yy",
+    "name":"dagger_spinning",
+    "path":"sprites/dagger_spinning/dagger_spinning.yy",
   },
   "spriteMaskId":null,
   "visible":true,

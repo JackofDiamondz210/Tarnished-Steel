@@ -61,15 +61,16 @@ if(keyboard_check(vk_space))
 	sprite_index = Attack_Player;
 	instance_create_layer(x + attacklocationx,y + attacklocationy,"Instances",O_Hitbox)
 	O_Controller.shakeValue = 0.5
-	ableToMove = true;
-}
-else
-{
-	if (chains = true)
+	if (chains = false)
 	{
-		ableToMove = false;	
+		ableToMove = true;
+	}
+	else
+	{
+		ableToMove = false;
 	}
 }
+
 
 //setting rotation of player 
 if (hsp !=0)image_xscale = sign(hsp)*size;

@@ -4,4 +4,4 @@
 // Inherit the parent event
 event_inherited();
 
-chains = true;
+O_Player.chains = true;

@@ -13,6 +13,7 @@ function CardCreation(card0, card1, card2){
 	cardArray[7] = instance_create_layer(x, y, "Instances", O_Vision);
 	cardArray[8] = instance_create_layer(x, y, "Instances", O_PickupEffect);
 	cardArray[9] = instance_create_layer(x, y, "Instances", O_Speed);
+	cardArray[10] = instance_create_layer(x, y, "Instances", O_Chains);
 	
 	
 }

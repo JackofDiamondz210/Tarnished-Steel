@@ -56,16 +56,19 @@ if(hsp > 0 || hsp < 0) or (vsp > 0 || vsp < 0)
 	
 }
 	
-if(keyboard_check(ord("Q")))
+if(keyboard_check(vk_space))
 {
 	sprite_index = Attack_Player;
 	instance_create_layer(x + attacklocationx,y + attacklocationy,"Instances",O_Hitbox)
 	O_Controller.shakeValue = 0.5
-	ableToMove = false;
+	ableToMove = true;
 }
 else
 {
-ableToMove = true;	
+	if (chains = true)
+	{
+		ableToMove = false;	
+	}
 }
 
 //setting rotation of player 

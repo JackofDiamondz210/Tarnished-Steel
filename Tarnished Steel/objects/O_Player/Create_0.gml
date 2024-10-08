@@ -9,6 +9,8 @@ atk_speed = .1;
 atk_damage = 10;
 atk_size = 10;
 
+chains = false;
+
 size = 1;
 image_xscale = size
 image_yscale = size

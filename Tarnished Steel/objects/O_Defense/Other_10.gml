@@ -3,4 +3,4 @@
 
 // Inherit the parent event
 event_inherited();
-O_Player.size += 1;
+O_Player.defense -= 10; 

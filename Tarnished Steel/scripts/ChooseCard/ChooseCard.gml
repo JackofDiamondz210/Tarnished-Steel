@@ -4,7 +4,7 @@
 // This function chooses a card based on a random number and the card number
 function ChooseCard(cardNumber) {
     var cardObject;
-    var randomCard = floor(random_range(0, 11)); // Random number 0 to 10
+    var randomCard = floor(random_range(0, 12)); // Random number 0 to 11
 
     switch (randomCard) {
         case 0:
@@ -61,6 +61,11 @@ function ChooseCard(cardNumber) {
             cardObject = O_SpinAttack;
             show_debug_message("Spin");
             break;
+			
+		case 11:
+			cardObject = O_Chains;
+			show_debug_message("Chains");
+			break;
 			
     }
 	// this is calling in cardlocations script so that we can set where they will be at.

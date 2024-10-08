@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":9.056168,
+  "duration":1.403061,
   "name":"CardPicked",
   "parent":{
     "name":"Sounds",

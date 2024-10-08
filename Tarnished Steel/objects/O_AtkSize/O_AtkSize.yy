@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"O_AtkSize",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"O_AtkSize",
   "overriddenProperties":[
@@ -14,8 +16,8 @@
     "path":"folders/Objects/Cards.yy",
   },
   "parentObjectId":{
-    "name":"PO_Cards",
-    "path":"objects/PO_Cards/PO_Cards.yy",
+    "name":"O_AtkSpd",
+    "path":"objects/O_AtkSpd/O_AtkSpd.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

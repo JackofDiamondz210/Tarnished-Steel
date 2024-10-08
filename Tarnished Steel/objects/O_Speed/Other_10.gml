@@ -3,5 +3,6 @@
 
 // Inherit the parent event
 event_inherited();
-O_Player.realSpd = 6
+O_Player.realSpd -= 1;
+
 
